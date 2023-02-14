@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <h1 class="title">Admin login</h1>
+
+    <div class="login-class">
+        <form action="/admin/check" method="post">
+            <input type="text" name="username" placeholder="username"> <br/>
+            <input type="password" name="pwd" placeholder="pwd"> <br/>
+            <input type="submit" value="submit" id="subimit-class"> <br/>
+        </form>
+    </div>
+
+    <style>
+        body {
+            background-color: #1A1E21;
+            color: white;
+        }
+
+        .title {
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .login-class {
+            margin: 7rem auto;
+            display: block;
+            text-align: center;
+        }
+        
+        
+        .login-class input {
+            width: 20rem;
+            margin: 0.5rem; ;
+            border: #1D2125 solid 0.1rem;
+            background: #2C3338;
+            padding: 0.5rem;
+            color: white;
+            opacity: 1;
+        }
+        #subimit-class {
+            margin-top: 1.1rem;
+            border-radius: 3rem;
+        }
+        
+
+    </style>
+</body>
+</html>

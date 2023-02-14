@@ -1,0 +1,5 @@
+{
+    "host" : "mongodb://localhost:27017",
+    "db" : "Live_straming_test",
+    "collections" : ["admin", "user", "ticket", "events", "session"]
+}
